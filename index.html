@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iglesia Nueva Esperanza | Bienvenida</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 12H5V22H19V12H22L12 2Z" fill="var(--primary)"/>
+                <path d="M12 7V17M9 10H15" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <span>Nueva Esperanza</span>
+        </div>
+        <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+        <nav class="nav-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#ministerios">Ministerios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="animate-up">Encuentra Tu Propósito<br>y Tu Comunidad</h1>
+            <p class="animate-up delay-1">Un lugar de amor, esperanza y restauración para ti y tu familia.</p>
+            <a href="#nosotros" class="btn btn-primary animate-up delay-2">Conócenos</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Nuestra Misión</h2>
+                    <p>En Iglesia Nueva Esperanza creemos en el poder transformador del amor. Nuestra misión es llevar luz y esperanza a cada persona, sin importar su trasfondo. Somos una comunidad diversa unida por un propósito común: crecer juntos en fe y servir a nuestra sociedad.</p>
+                    <ul class="values-list">
+                        <li><span>✦</span> Fe Inquebrantable</li>
+                        <li><span>✦</span> Comunidad Genuina</li>
+                        <li><span>✦</span> Servicio Vocacional</li>
+                    </ul>
+                </div>
+                <div class="about-image-wrapper">
+                    <div class="glass-card">
+                        <h3>Horarios de Culto</h3>
+                        <p><strong>Domingos:</strong> 10:00 AM & 6:00 PM</p>
+                        <p><strong>Miércoles:</strong> 7:30 PM (Estudio Bíblico)</p>
+                        <p><strong>Viernes:</strong> 8:00 PM (Jóvenes)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ministries Section -->
+    <section id="ministerios" class="ministries">
+        <div class="container">
+            <h2 class="section-title">Nuestros Ministerios</h2>
+            <div class="ministries-grid">
+                <!-- Card 1 -->
+                <div class="ministry-card">
+                    <div class="card-icon">👶</div>
+                    <h3>Niños</h3>
+                    <p>Un espacio seguro y divertido donde los más pequeños aprenden valores fundamentales.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="ministry-card">
+                    <div class="card-icon">🎸</div>
+                    <h3>Jóvenes</h3>
+                    <p>Reuniones dinámicas, música y amistades genuinas para la próxima generación.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="ministry-card">
+                    <div class="card-icon">🤝</div>
+                    <h3>Adoración</h3>
+                    <p>Experimenta tiempos profundos de alabanza y conexión espiritual.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="ministry-card">
+                    <div class="card-icon">🌍</div>
+                    <h3>Obra Social</h3>
+                    <p>Impactando nuestra ciudad a través de servicio comunitario y ayuda al necesitado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="contact-box glass-panel">
+                <h2>¿Necesitas Oración o Tienes Preguntas?</h2>
+                <p>Estamos aquí para escucharte y apoyarte en todo momento.</p>
+                <div class="contact-methods">
+                    <div class="method">
+                        <strong>📍 Dirección:</strong>
+                        <span>Av. Principal 123, Ciudad Centro</span>
+                    </div>
+                    <div class="method">
+                        <strong>📞 Teléfono:</strong>
+                        <span>+1 234 567 8900</span>
+                    </div>
+                    <div class="method">
+                        <strong>✉️ Email:</strong>
+                        <span>contacto@nuevaesperanza.org</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer & QR Trigger -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <h3>Iglesia Nueva Esperanza</h3>
+                <p>&copy; 2026 Todos los derechos reservados.</p>
+            </div>
+            <button id="generateQRBtn" class="btn btn-secondary">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    <rect x="7" y="7" width="3" height="3"></rect>
+                    <rect x="14" y="7" width="3" height="3"></rect>
+                    <rect x="7" y="14" width="3" height="3"></rect>
+                    <rect x="14" y="14" width="3" height="3"></rect>
+                </svg>
+                Generar QR de la Web
+            </button>
+        </div>
+    </footer>
+
+    <!-- QR Modal -->
+    <div id="qrModal" class="modal-overlay">
+        <div class="modal-content glass-card">
+            <button id="closeModal" class="close-btn">&times;</button>
+            <h2>Escanea para Compartir</h2>
+            <p>Comparte nuestra página fácilmente usando este código.</p>
+            <div id="qrcode-container" class="qr-box"></div>
+            <p class="qr-url" id="displayUrl"></p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
